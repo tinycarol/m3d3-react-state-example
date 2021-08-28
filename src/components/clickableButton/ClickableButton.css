@@ -1,0 +1,21 @@
+.ClickableButton {
+  font-size: larger;
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  box-shadow: 0 15px 0 rgba(0, 0, 0, 0.4);
+	transition: transform .3s, box-shadow .3s;
+	margin: 15px;
+}
+
+.ClickableButton:hover {
+	transform: translateY(5px);
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.ClickableButton.clicked {
+	transform: translateY(15px);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.4);
+}
